@@ -1,0 +1,9 @@
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.exe.config
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.exe
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.pdb
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csprojResolveAssemblyReference.cache
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.Form1.resources
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.Properties.Resources.resources
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csproj.GenerateResource.Cache
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.exe
+C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.pdb
