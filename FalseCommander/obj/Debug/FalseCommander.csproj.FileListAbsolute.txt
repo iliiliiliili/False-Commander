@@ -7,3 +7,13 @@ C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.Pro
 C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csproj.GenerateResource.Cache
 C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.exe
 C:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.pdb
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.exe.config
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.exe
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\bin\Debug\FalseCommander.pdb
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.Form1.resources
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.Properties.Resources.resources
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csproj.GenerateResource.Cache
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csproj.CoreCompileInputs.cache
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.exe
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.pdb
+D:\FILES\$CS_PROJECTS\FalseCommander\FalseCommander\obj\Debug\FalseCommander.csprojAssemblyReference.cache

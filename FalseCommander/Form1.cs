@@ -14,7 +14,10 @@ namespace FalseCommander {
     public partial class Form1 : Form {
 
         public Form1() {
+
             InitializeComponent();
+
+            richTextBox1.Text = FalseCommanderWindows.ReadFromFile ("Code.fls");
 
             new KeyboardController (OnKeyDown, OnKeyUp);
         }
@@ -130,8 +133,9 @@ namespace FalseCommander {
             var falseCommanderWindows = (new FalseCommanderWindows ("Input.txt", "Parameters.txt", "Output.txt"));
 
             ThreadStart childref = new ThreadStart(falseCommanderWindows.Process);
-            Thread childThread = new Thread(childref);
-            childThread.IsBackground = true;
+            Thread childThread = new Thread (childref) {
+                IsBackground = true
+            };
             childThread.Start();
 
 
@@ -349,7 +353,6 @@ namespace FalseCommander {
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e) {
 
-
             if (KeyboardController.instance != null)
                 KeyboardController.instance.Destroy ();
         }
@@ -370,6 +373,10 @@ namespace FalseCommander {
             sfd.ShowDialog ();
 
             FalseCommanderWindows.WriteToFile (sfd.FileName == "" ? "Code.fls" : sfd.FileName, richTextBox1.Text);
+        }
+
+        private void richTextBox1_TextChanged (object sender, EventArgs e) {
+
         }
     }
 }

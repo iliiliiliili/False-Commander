@@ -63,7 +63,6 @@ namespace FalseCommander {
 
         public static string ReadFromFile (string filename) {
 
-            
             StreamReader sr = new StreamReader (filename);
             string res = sr.ReadToEnd ();
             sr.Close ();
@@ -112,7 +111,7 @@ namespace FalseCommander {
             return new StackElement((int) c);
         }
 
-        private bool isVar (char c) {
+        private bool IsVar (char c) {
 
             return  c >= 'a' && c <= 'z';
         }
@@ -130,7 +129,6 @@ namespace FalseCommander {
 
                     output += "FileLoadError '" + ss [1] + ".fls'";
                 }
-
 			}
 
 		}
@@ -294,7 +292,7 @@ namespace FalseCommander {
 					continue;
 				}
 
-				if (isVar(c)) {
+				if (IsVar(c)) {
 
 					if (isReadVar)
 						return "Variable can only have a one-symbol name from 'a' to 'z'. At: " + index + ".";
